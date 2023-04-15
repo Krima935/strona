@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <title>Strona</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            img{
+                user-drag: none;
+                -webkit-user-drag: none;
+                user-select: none;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+            }
+            a{
+                text-decoration:none
+            }
+        </style>
+    </head>
+    <body>
+        <header class="shadow-lg">
+            <div class="bg-warning bg-gradient border-bottom border-warning border-5 " style="width: 100%;height: 45rem; margin-bottom: 15rem;">
+                <div class="card position-absolute top-50 start-50 translate-middle" style="width: 70rem;height: 50rem;">
+                    <div class="card-body bg-success-subtle">
+                        <div class="rounded-circle bg-white position-absolute" style="width: 8rem;height: 8rem;">
+                            <img src="image/header/logo.png" class="position-relative top-50 start-50 translate-middle" alt="logo" style="width: 7rem;height: 7rem;">       
+                        </div>
+                        <div class="position-absolute">
+                            <img src="image/header/naglowek1.png" class="position-relative translate-middle" alt="logo" style="width: 600px;top: 37rem;right: -72.5%;">        
+                        </div>
+                        <div class="position-relative z-3">
+                            <div class="position-absolute start-50 translate-middle-x">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Przemioty</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Perspektywy</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Prace uczniów</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Ciekawostki</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center position-relative" style="width: 30rem;height: 70%;left: 10rem;top: 10rem;">
+                            <div class="row">
+                                <div class="col" style="height: 50%;">
+                                    <p class="text-white text-start" style="font-size: 50px;font-weight: bold;">Technik <span class="text-warning">Architektury</span></p>
+                                    <p class=" bg-success text-white font-weight-bold" style="font-size: 50px;font-weight: bold;">Krajobrazu</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col" style="height: 30%;">
+                                    <p class="fs-4 text-start text-black">Kierunek dla osób kreatywnych. Projektuj, twórz, komponuj. Rysuj, maluj i działaj</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col" style="height: 20%;">
+                                    <button type="button" class="btn btn-primary btn-lg">
+                                        <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                              </svg>
+                                            Zapisz się
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card position-absolute" style="width: 25rem;height: 70rem;right: 0;top: -20rem;">
+                            <div class="card-body bg-white position-relative bottom-0 end-0" >
+                                <img src="image/header/naglowek2.png" class="position-relative translate-middle" alt="logo" style="width: 600px;top: 60%;right: -50%;">   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="d-flex position-absolute" style="height: 20000px; left: 15rem;">
+                <div class="vr"></div>
+            </div>
+            <article id="O-kierunku">
+                <div class="position-relative" style="width: 100%;height: 2rem;">
+                    <img class="position-absolute translate-middle-x"  src="image/icons/dot.svg" style="width: 5rem; left: 12.6%; bottom: 0rem;">
+                    <div class="position-absolute top-0 translate-middle-x" style="left: 20%;">
+                        <h1>O kierunku</h1>
+                    </div>
+                </div>
+                <div class="container text-center" style="margin-top: 5rem;">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card shadow-lg" style="width: 20rem;">
+                                <img src="image/banery/ogrod-logo-obrys.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Przedmioty na kierunku</h5>
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active icon-link icon-link-hover text-center" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                                            Architektoniczne<img src="image/icons/house.svg" class="bi z-3" aria-hidden="true"></img>                                         
+                                        </a>
+                                        <a class="list-group-item list-group-item-action icon-link icon-link-hover text-center" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                                            Techniczne<img src="image/icons/gear-fill.svg" class="bi z-3" aria-hidden="true"></img>
+                                        </a>
+                                        <a class="list-group-item list-group-item-action icon-link icon-link-hover text-center" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                                            Przrodnicze<img src="image/icons/flower3.svg" class="bi z-3" aria-hidden="true"></img>
+                                        </a>
+                                        <a class="list-group-item list-group-item-action icon-link icon-link-hover text-center" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                                            Artyczne<img src="image/icons/brush.svg" class="bi z-3" aria-hidden="true"></img></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg" style="width: 20rem;">
+                                <img src="image/banery/w6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zobacz nasze prace</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="clearfix">
+                                        <img src="image/galeria/kwaitaki7.jpg" class="img-thumbnail float-start" alt="..." style="width: 130px;">
+                                        <img src="image/galeria/kwaitaki6.jpg" class="img-thumbnail float-end" alt="..." style="width: 130px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg" style="width: 20rem;">
+                                <img src="image/galeria/kwiatki5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body z-2">
+                                    <h5 class="card-title">Nauka i praktyka</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <img src="image/banery/pisaki.png" class="card-img-top position-relative rounded" alt="..." style="rotate: -90deg; height: 318px;top: 32px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="Perspektywy">
+                <div class="position-relative " style="width: 100%;height: 2rem; margin-top: 7rem;">
+                    <img class="position-absolute translate-middle-x"  src="image/icons/dot.svg" style="width: 5rem; left: 12.6%; bottom: 0rem;">
+                    <div class="position-absolute top-0 translate-middle-x" style="left: 20%;">
+                        <h1>Perspektywy</h1>
+                    </div>
+                </div>
+                <div class="shadow-lg bg-warning bg-gradient border-bottom border-warning border-5" style="width: 100%;height: 45rem; margin-bottom: 15rem; margin-top: 5rem;">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col" style="height: 50%;">
+                                <p class="text-white" style="font-size: 50px;font-weight: bold;margin-bottom: 5rem;">Technik <span class="text-success">Architektury</span> Krajowej</p>
+                                <p class="text-start fs-2 position-relative" style="width: 50rem;left: 50px;margin-bottom: 5rem;">Kierunek, który teoretycznie i praktycznie przygotowuje od projektowania, zakładania oraz pielęgnacji zieleni.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="height: 50%;">
+                                <button type="button" class="fs-5 btn btn-success" style="margin-right: 20px;">                                        <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                    </svg>
+                                    Rekrutacja
+                                </a></button>
+                                <a class="fs-5 link-offset-2 link-underline link-underline-opacity-0" href="#">Gdzie znajdę pracę ?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/artysta.png" class="position-relative" alt="..." style="width: 700px; left: 1100px;top: -335px;">
+                </div>
+            </article>
+            <article id="Prace-Uczniów">
+                <div class="position-relative" style="width: 100%;height: 2rem; margin-top: 7rem;">
+                    <img class="position-absolute translate-middle-x"  src="image/icons/dot.svg" style="width: 5rem; left: 12.6%; bottom: 0rem;">
+                    <div class="position-absolute top-0 translate-middle-x" style="left: 20%;">
+                        <h1>Prace uczniów</h1>
+                    </div>
+                </div>
+                <div class="container text-center" style="width: 1700px">
+                    <div class="row row-cols-3 ">
+                        <div class="col"><img class="mx-auto d-block" src="image/galeria/kraj1.jpg" alt="" style="width: 400px;margin: .5rem;"></div>
+                        <div class="col"><img class="mx-auto d-block" src="image/galeria/kraj1.jpg" alt="" style="width: 400px;margin: .5rem;"></div>
+                        <div class="col"><img class="mx-auto d-block" src="image/galeria/kraj1.jpg" alt="" style="width: 400px;margin: .5rem;"></div>
+                        <div class="col"><img class="mx-auto d-block" src="image/galeria/kraj1.jpg" alt="" style="width: 400px;margin: .5rem;"></div>
+                        <div class="col"><img class="mx-auto d-block" src="image/galeria/kraj1.jpg" alt="" style="width: 400px;margin: .5rem;"></div>
+                        <div class="col"><img class="mx-auto d-block" src="image/galeria/kraj1.jpg" alt="" style="width: 400px;margin: .5rem;"></div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
