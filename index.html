@@ -27,8 +27,8 @@
     </head>
     <body>
         <header class="shadow-lg">
-            <div class="bg-warning bg-gradient border-bottom border-warning border-5 " style="width: 100%;height: 45rem; margin-bottom: 15rem;">
-                <div class="card position-absolute top-50 start-50 translate-middle" style="width: 70rem;height: 50rem;">
+            <div class="bg-warning bg-gradient border-bottom border-warning border-5 position-relative" style="width: 100%;height: 45rem; margin-bottom: 15rem;">
+                <div class="card position-absolute top-50 start-50 translate-middle" style="width: 70rem;height: 50rem;margin-top: 5%;">
                     <div class="card-body bg-success-subtle">
                         <div class="rounded-circle bg-white position-absolute" style="width: 8rem;height: 8rem;">
                             <img src="image/header/logo.png" class="position-relative top-50 start-50 translate-middle" alt="logo" style="width: 7rem;height: 7rem;">       
@@ -88,153 +88,329 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </header> 
         <main>
-            <div class="d-flex position-absolute" style="height: 2000px; left: 12.55%;margin-top: 1.5rem;">
+            <div class="d-flex position-absolute mt-4" style="height: 2000px; left: 8svw;">
                 <div class="vr"></div>
             </div>
             <article id="O-kierunku">
-                <div class="position-relative" style="width: 100%;height: 2rem;">
-                    <img class="position-absolute translate-middle"  src="image/icons/dot.svg" style="width: 5rem; left: 12.55%;margin-top: 1.5rem;">
-                    <div class="position-absolute top-0 translate-middle-x" style="left: 20%;">
-                        <h1>O kierunku</h1>
-                    </div>
+                <div class="position-relative" style="height: 50px;">
+                    <img class="position-absolute top-50 start-0 translate-middle d-inline"  src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
+                    <h1 class="top-50 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">O kierunku</h1>
                 </div>
-                <div class="container text-center" style="margin-top: 5rem;">
-                    <div class="row justify-content-between">
-                        <div class="col">
-                            <div class="card shadow-lg" style="width: 20rem;">
-                                <img src="image/banery/ogrod-logo-obrys.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Przedmioty na kierunku</h5>
-                                    <div class="list-group" id="list-tab" role="tablist">
-                                        <div>
-                                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal1" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
-                                                    Architektoniczne<img src="image/icons/house.svg" class="bi z-3" aria-hidden="true"></img>
-                                                </div>
-                                            </a>
-                                            <div class="modal fade" id="ListModal1" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-fullscreen">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="ListModalLabel">Architektoniczne</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="">
+                    <div class="container text-center" style="margin-top: 5rem; width: 100%;">
+                        <div class="row justify-content-between align-content-between">
+                            <div class="col">
+                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
+                                    <img src="image/banery/ogrod-logo-obrys.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Przedmioty na kierunku</h5>
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <div>
+                                                <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
+                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal1" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                        Architektoniczne<img src="image/icons/house.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
-                                                    <div class="modal-body">
-                                                    Lorem, ipsum dolor.
+                                                </a>
+                                                <div class="modal fade" id="ListModal1" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-fullscreen">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="ListModalLabel">Będziemy się uczyć</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="position-relative" style="width: 100%; height: 100%;">
+                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <img class="shadow-lg" src="image/architekt1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
+                                                                        </div>
+                                                                        <div class="col">
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <h1 style="font-size: clamp(4rem, 1lvw + 2rem,6rem);">Przedmioty Architektoniczne</h1>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <p style="font-size: clamp(2.5rem, 1lvw + 1rem,3srem);">
+                                                                                        Zapoznamy się z dokumentacją projektową i programami komputerowymi do projektowania i wizualizacji, a także będziemy nadzorować przycinanie drzew i krzewów oraz pielęgnować tereny zieleni w parkach, na osiedlach i przy obiektach użyteczności publicznej.
+                                                                                    </p>
+                                                                                    <img class=" shadow-lg" src="image/architekt2.jpg" alt="" style="height: 25svh ;width: fit-content;">
+                                                                                    <p>
+                                                                                        <ul>
+                                                                                            <li>Podstawy architektury krajobrazu</li>
+                                                                                            <li>Projektowanie obiektów terenów zieleni</li>
+                                                                                            <li>Wykonywanie projektów obiektów roślinnych</li>
+                                                                                            <li>Urządzanie terenów zieleni</li>
+                                                                                        </ul>
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <button type="button" class="btn btn-danger btn-lg">
+                                                                                        <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                                                                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                                                                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                                                                            </svg>
+                                                                                            Zapisz się
+                                                                                        </a>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div>
-                                            <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal2" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
-                                                    Techniczne<img src="image/icons/gear-fill.svg" class="bi z-3" aria-hidden="true"></img>
-                                                </div>
-                                            </a>
-                                            <div class="modal fade" id="ListModal2" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-fullscreen">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="ListModalLabel">Techniczne</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <div>
+                                                <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
+                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal2" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                        Techniczne<img src="image/icons/gear-fill.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
-                                                    <div class="modal-body">
-                                                    Lorem, ipsum dolor.
+                                                </a>
+                                                <div class="modal fade" id="ListModal2" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-fullscreen">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="ListModalLabel">Będziemy się uczyć</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="position-relative" style="width: 100%; height: 100%;">
+                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <img class="shadow-lg" src="image/zielen1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
+                                                                        </div>
+                                                                        <div class="col">
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <h1 style="font-size: clamp(4rem, 1lvw + 2rem,6rem);">Przedmioty Techniczne</h1>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <p style="font-size: clamp(2.5rem, 1lvw + 1rem,3srem);">
+                                                                                        Zajmujemy się organizacją prac związanych z budową pięknych i funkcjonalnych obiektów architektury krajobrazu, wykonujemy precyzyjne pomiary geodezyjne, kosztorysujemy oraz stosujemy skuteczne zasady marketingu, a także umiemy biegle obsługiwać narzędzia ogrodnicze. Przyłącz się do nas, aby nauczyć się tych umiejętności i stać się specjalistą w dziedzinie architektury krajobrazu!
+                                                                                    </p>
+                                                                                    <img class=" shadow-lg" src="image/praca9.jpg" alt="" style="height: 25svh ;width: fit-content;">
+                                                                                    <p>
+                                                                                        <ul>
+                                                                                            <li>Projektowanie obiektów małej architektury krajobrazu</li>
+                                                                                            <li>Budowanie i konserwacja małej architektury krajobrazu</li>
+                                                                                            <li>Prowadzenie firmy architektury krajobrazu </li>
+                                                                                        </ul>
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <button type="button" class="btn btn-warning btn-lg">
+                                                                                        <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                                                                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                                                                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                                                                            </svg>
+                                                                                            Zapisz się
+                                                                                        </a>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div>
-                                            <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal3" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
-                                                    Przrodnicze<img src="image/icons/flower3.svg" class="bi z-3" aria-hidden="true"></img>
-                                                </div>
-                                            </a>
-                                            <div class="modal fade" id="ListModal3" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-fullscreen">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="ListModalLabel">Przrodnicze</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <div>
+                                                <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
+                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal3" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                        Przrodnicze<img src="image/icons/flower3.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
-                                                    <div class="modal-body">
-                                                    Lorem, ipsum dolor.
+                                                </a>
+                                                <div class="modal fade" id="ListModal3" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-fullscreen">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="ListModalLabel">Będziemy się uczyć</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="position-relative" style="width: 100%; height: 100%;">
+                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <img class="shadow-lg" src="image/architekt1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
+                                                                        </div>
+                                                                        <div class="col">
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <h1 style="font-size: clamp(4rem, 1lvw + 2rem,6rem);">Przedmioty Przyrodnicze</h1>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <p style="font-size: clamp(2.5rem, 1lvw + 1rem,3srem);">
+                                                                                        W naszej szkole nauczysz się rozpoznawać poszczególne gatunki roślin, charakteryzować różnorodne typy krajobrazu, przygotowywać podłoże pod nasadzenia roślin ozdobnych oraz dobierać rośliny do poszczególnych założeń ogrodowych. Dołącz do nas, aby poznać tajniki projektowania i pielęgnacji pięknych ogrodów oraz zyskać niezbędną wiedzę, aby stać się specjalistą w tej dziedzinie!
+                                                                                    </p>
+                                                                                    <img class=" shadow-lg" src="image/ogrod2.jpg" alt="" style="height: 25svh ;width: fit-content;">
+                                                                                    <p>
+                                                                                        <ul>
+                                                                                            <li>Zastosowanie roślin ozdobnych w projektowaniu</li>
+                                                                                            <li>Pielęgnowanie terenów zieleni</li>
+                                                                                            <li>Urządzanie terenów zieleni</li>
+                                                                                        </ul>
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <button type="button" class="btn btn-success btn-lg">
+                                                                                        <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                                                                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                                                                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                                                                            </svg>
+                                                                                            Zapisz się
+                                                                                        </a>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div>
-                                            <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal4" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
-                                                    Artyczne<img src="image/icons/brush.svg" class="bi z-3" aria-hidden="true"></img>
-                                                </div>
-                                            </a>
-                                            <div class="modal fade" id="ListModal4" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-fullscreen">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="ListModalLabel">Artyczne</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <div>
+                                                <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
+                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal4" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                        Artyczne<img src="image/icons/brush.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
-                                                    <div class="modal-body">
-                                                    Lorem, ipsum dolor.
+                                                </a>
+                                                <div class="modal fade" id="ListModal4" tabindex="3" aria-labelledby="ListModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-fullscreen">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="ListModalLabel">Będziemy się uczyć</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="position-relative" style="width: 100%; height: 100%;">
+                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <img class="shadow-lg" src="image/architekt1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
+                                                                        </div>
+                                                                        <div class="col">
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <h1 style="font-size: clamp(4rem, 1lvw + 2rem,6rem);">Przedmioty Artystyczne</h1>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <p style="font-size: clamp(2.5rem, 1lvw + 1rem,3srem);">
+                                                                                        W tej dziedzinie będziesz miał/a możliwość rozwijania swojej kreatywności, umiejętności artystycznych i technicznych, aby stworzyć piękne i funkcjonalne aranżacje florystyczne i projektować elementy małej architektury krajobrazu.
+                                                                                    <img class=" shadow-lg" src="image/kwiatek56.jpg" alt="" style="height: 25svh ;width: fit-content;">
+                                                                                    <p>
+                                                                                        <ul>
+                                                                                            <li>Wykonywanie projektów terenów zieleni podczas praktyki zawodowej.</li>
+                                                                                            <li>Opracowywanie projektów graficznych w oparciu o plany zagospodarowania przestrzennego podczas praktyki zawodowej.</li>
+                                                                                        </ul>
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <button type="button" class="btn btn-primary btn-lg">
+                                                                                        <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                                                                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                                                                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                                                                            </svg>
+                                                                                            Zapisz się
+                                                                                        </a>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-lg" style="width: 20rem;">
-                                <img src="image/banery/w6.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Zobacz nasze prace</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <div class="clearfix">
-                                        <img src="image/galeria/kwaitaki7.jpg" class="img-thumbnail float-start" alt="..." style="width: 130px;">
-                                        <img src="image/galeria/kwaitaki6.jpg" class="img-thumbnail float-end" alt="..." style="width: 130px;">
+                            <div class="col">
+                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
+                                    <img src="image/banery/w6.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Zobacz nasze prace</h5>
+                                        <p class="card-text" style="font-size: clamp(.5em, 1rem + 1lvw,.85rem);">Na zajęciach będziemy pracować w kameralnych grupach, co pozwoli nam jeszcze lepiej przygotować się do pracy w zawodzie! Proces kształcenia będzie oparty na praktycznych umiejętnościach, które przydadzą się w przyszłej pracy na stanowisku pielęgnatora terenów zieleni.</p>
+                                        <div class="clearfix">
+                                            <img src="image/galeria/kwaitaki7.jpg" class=" float-start" alt="..." style="width: 130px;">
+                                            <img src="image/galeria/kwaitaki6.jpg" class=" float-end" alt="..." style="width: 130px;">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card shadow-lg" style="width: 20rem;">
-                                <img src="image/galeria/kwiatki5.jpg" class="card-img-top" alt="...">
-                                <div class="card-body z-2">
-                                    <h5 class="card-title">Nauka i praktyka</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <img src="image/banery/pisaki.png" class="card-img-top position-relative rounded" alt="..." style="rotate: -90deg; height: 318px;top: 32px;">
+                            <div class="col">
+                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
+                                    <img src="image/galeria/kwiatki5.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body z-2">
+                                        <h5 class="card-title">Nauka i praktyka</h5>
+                                        <p class="card-text" style="font-size: clamp(.5em, 1rem + 1lvw,.85rem);">Przygotuj się na fascynującą przygodę, która pozwoli Ci rozwijać swoją wiedzę i umiejętności w praktyce! Nasi uczniowie mają okazję uczestniczyć w licznych wycieczkach do ogrodów botanicznych, szkółek krzewów ozdobnych czy szklarni produkcyjnych, a także brać udział w targach produkcyjnych, na których mogą zdobyć wiele cennych doświadczeń i nawiązać kontakty z ekspertami z branży.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article id="Perspektywy">
-                <div class="position-relative " style="width: 100%;height: 2rem; margin-top: 7rem;">
-                    <img class="position-absolute translate-middle"  src="image/icons/dot.svg" style="width: 5rem; left: 12.55%;margin-top: 1.5rem;">
-                    <div class="position-absolute top-0 translate-middle-x" style="left: 20%;">
-                        <h1>Perspektywy</h1>
-                    </div>
+
+
+
+            <article id="Perspektywy" style="margin-top: 5rem;">
+                <div class="position-relative" style="height: 50px;">
+                    <img class="position-absolute top-50 start-0 translate-middle d-inline"  src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
+                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Perspektywy</h1>
                 </div>
-                <div class="shadow-lg bg-warning bg-gradient border-bottom border-warning border-5" style="width: 100%;height: 45rem; margin-bottom: 15rem; margin-top: 5rem;">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col" style="height: 50%;">
-                                <p class="text-white" style="font-size: 50px;font-weight: bold;margin-bottom: 5rem;">Technik <span class="text-success">Architektury</span> Krajowej</p>
-                                <p class="text-start fs-2 position-relative" style="width: 50rem;left: 50px;margin-bottom: 5rem;">Kierunek, który teoretycznie i praktycznie przygotowuje od projektowania, zakładania oraz pielęgnacji zieleni.</p>
+
+                <div class="shadow-lg bg-warning bg-gradient border-bottom border-warning border-5" style="width: 100%;height: 40rem; margin-bottom: 15rem; margin-top: 5rem;">
+                    <div class="container text-center ">
+                        <div class="row mx-auto">
+                            <div class="col">
+                                <p class="text-white" style="font-size: 50px;font-weight: bold;">Technik <span class="text-success">Architektury</span> Krajowej</p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col" style="height: 50%;">
+                        <div class="row mx-auto">
+                            <div class="col">
+                                <p class="text-start m-auto mb-4" style="width: clamp(45ch, 50%, 75ch);font-size: 1.5rem;">Przygotuj się na kierunek, który pozwoli Ci rozwinąć umiejętności z zakresu projektowania, zakładania i pielęgnacji zieleni w sposób najbardziej kompleksowy! Poznasz tajniki teorii, ale też zdobędziesz doświadczenie praktyczne, co pozwoli Ci od razu w pełni wykorzystać zdobyte umiejętności w pracy zawodowej.</p>
+                            </div>
+                        </div>
+                        <div class="row mx-auto">
+                            <div class="col">
                                 <button type="button" class="fs-5 btn btn-success" style="margin-right: 20px;">
                                     <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
@@ -246,16 +422,16 @@
                                 <a class="fs-5 link-offset-2 link-underline link-underline-opacity-0" href="#">Gdzie znajdę pracę ?</a>
                             </div>
                         </div>
-                    </div>
-                    <img src="image/artysta.png" class="position-relative" alt="..." style="width: 700px; left: -200px;top: -335px;">
+                    </div><!--
+                    <div class="position-relative">
+                        <img src="image/artysta.png" class="position-absolute" alt="..." style="top: clamp(-600px,-17.75svw,-20svw);height: clamp(300px,35.5svw,40svw);width: auto;">
+                    </div>-->
                 </div>
-            </article>
+            </article><!-- 
             <article id="Prace-Uczniów">
-                <div class="position-relative" style="width: 100%;height: 2rem; margin-top: 7rem;">
-                    <img class="position-absolute translate-middle"  src="image/icons/dot.svg" style="width: 5rem; left: 12.55%;margin-top: 1.5rem;">
-                    <div class="position-absolute top-0 translate-middle-x" style="left: 20%;">
-                        <h1>Prace uczniów</h1>
-                    </div>
+                <div class="position-relative" style="height: 50px;">
+                    <img class="position-absolute top-50 start-0 translate-middle d-inline"  src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
+                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Prace uczniów</h1>
                 </div>
                 <div class="container text-center" style="width: 1700px">
                     <div class="row row-cols-3 ">
@@ -270,7 +446,7 @@
             </article>
         </main>
         <footer>
-        </footer>
+        </footer> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
 </html>
