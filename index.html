@@ -6,24 +6,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <title>Strona</title>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            img{
-                -webkit-user-drag: none;
-                user-select: none;
-                -moz-user-select: none;
-                -webkit-user-select: none;
-                -ms-user-select: none;
-            }
-            a{
-                text-decoration:none
-            }
-        </style>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header class="shadow-lg">
@@ -40,16 +24,24 @@
                             <div class="position-absolute start-50 translate-middle-x">
                                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                     <li class="nav-item" role="presentation">
+                                        <a href="#O-kierunku">
                                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Przemioty</button>
+                                        </a>
                                     </li>
                                     <li class="nav-item" role="presentation">
+                                        <a href="#Perspektywy">
                                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Perspektywy</button>
+                                        </a>
                                     </li>
                                     <li class="nav-item" role="presentation">
+                                        <a href="#Prace-Uczniów">
                                         <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Prace uczniów</button>
+                                        </a>
                                     </li>
                                     <li class="nav-item" role="presentation">
+                                        <a href="#Ciekawostki">
                                         <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Ciekawostki</button>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -90,7 +82,7 @@
             </div>
         </header>
         <main>
-            <div class="d-flex position-absolute mt-4" style="height: 3500px; left: 8svw;">
+            <div class="d-flex position-absolute mt-4" style="height: min(270dvh,500dvh); left: 8svw;">
                 <div class="vr"></div>
             </div>
             <article id="O-kierunku">
@@ -98,10 +90,10 @@
                     <img class="position-absolute top-50 start-0 translate-middle d-inline"  src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
                     <h1 class="top-50 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">O kierunku</h1>
                 </div>
-                <div class="">
+                <div>
                     <div class="container text-center" style="margin-top: 5rem; width: 100%;">
                         <div class="row justify-content-between align-content-between">
-                            <div class="col">
+                            <div class="col" > <!-- data-aos="fade-up" data-aos-delay="0" data-aos-anchor-placement="top-bottom" -->
                                 <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
                                     <img src="image/banery/w6.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -362,12 +354,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-bottom" data-aos-once="true">
                                 <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
                                     <div id="carouselExample" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="image/banery/w6.jpg" class="d-block w-100 card-img-top" alt="...">
+                                                <img src="image/banery/w6.jpg" class="d-block w-100 card-img-top" style="margin-bottom: 52.27px;" alt="...">
                                             </div>
                                             <div class="carousel-item">
                                                 <img src="image/galeria/kwaitaki7.jpg" class="d-block w-100 card-img-top" alt="...">
@@ -391,7 +383,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="fade-up" data-aos-delay="600" data-aos-anchor-placement="top-bottom" data-aos-once="true">
                                 <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
                                     <img src="image/galeria/kwiatki5.jpg" class="card-img-top" alt="...">
                                     <div class="card-body z-2">
@@ -404,9 +396,6 @@
                     </div>
                 </div>
             </article>
-
-
-
             <article id="Perspektywy" style="margin-top: 5rem;">
                 <div class="position-relative" style="height: 50px;">
                     <img class="position-absolute top-50 start-0 translate-middle d-inline"  src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
@@ -419,7 +408,7 @@
                             <p class="text-white" style="font-size: clamp(20px,50px + 1svw,100px);font-weight: bold;">Technik <span class="text-success">Architektury</span> Krajowej</p>
                         </div>
                         <div class="p-2 z-2">
-                            <p class="text-start m-auto mb-4" style="width: clamp(25ch, 50%, 65ch);font-size: 1.5rem;">Przygotuj się na kierunek, który pozwoli Ci rozwinąć umiejętności z zakresu projektowania, zakładania i pielęgnacji zieleni w sposób najbardziej kompleksowy! Poznasz tajniki teorii, ale też zdobędziesz doświadczenie praktyczne, co pozwoli Ci od razu w pełni wykorzystać zdobyte umiejętności w pracy zawodowej.</p>
+                            <p data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"  class="m-auto mb-4 bg-success p-3 text-white shadow-lg rounded" style="width: clamp(25ch, 50%, 65ch);font-size: 1.5rem;text-align: justify;">Przygotuj się na kierunek, który pozwoli Ci rozwinąć umiejętności z zakresu projektowania, zakładania i pielęgnacji zieleni w sposób najbardziej kompleksowy! Poznasz tajniki teorii, ale też zdobędziesz doświadczenie praktyczne, co pozwoli Ci od razu w pełni wykorzystać zdobyte umiejętności w pracy zawodowej.</p>
                         </div>
                         <div class="p-2 z-2">
                                 <button type="button" class="fs-5 btn btn-success" style="margin-right: 20px;">
@@ -435,7 +424,7 @@
                     </div>
                 </div>
                 <div class="position-relative z-1">
-                    <img src="image/artysta.png" class="position-absolute " alt="..." style="bottom: clamp(0px, 318px + 1svh,400px);height: auto;width: max(300px,35.5svw);">
+                    <img src="image/artysta.png" class="position-absolute " alt="..." style="bottom: clamp(0px, 318px + 1svh,400px);height: auto;width: max(300px,35.5svw);"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" >
                 </div>
             </article>
             <article id="Prace-Uczniów">
@@ -443,13 +432,13 @@
                     <img class="position-absolute top-50 start-0 translate-middle d-inline" src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
                     <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Prace uczniów</h1>
                 </div>
-                <div class="container text-center" style="width: 100dvw">
-                        <div class="d-inline-flex"><img class="mx-auto d-block rounded " src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div class="d-inline-flex"><img class="mx-auto d-block rounded " src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div class="d-inline-flex"><img class="mx-auto d-block rounded " src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div class="d-inline-flex"><img class="mx-auto d-block rounded " src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div class="d-inline-flex"><img class="mx-auto d-block rounded " src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div class="d-inline-flex"><img class="mx-auto d-block rounded " src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
+                <div class="container text-center mb-5 mt-5" style="width: 100dvw">
+                        <div data-aos="fade-up" data-aos-delay="0" data-aos-once="true" class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/przedmiot.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/zielen1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="900" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/kwaitaki6.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="1200" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/praca1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="1500" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/praca9.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
                 </div>
             </article>
             <article id="Ciekawostki">
@@ -457,23 +446,35 @@
                     <img class="position-absolute top-50 start-0 translate-middle d-inline" src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
                     <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Ciekawostki</h1>
                 </div>
+                <div class="w-100" style="height: 700px; background-size: cover;background-repeat: no-repeat; background-image: url(image/artysta3.jpg);text-align: justify;">
+                    <div class="w-100 d-flex flex-column mb-3 align-items-center justify-content-evenly position-relative text-light" style="height: 80%;backdrop-filter: blur(1px);top: 10%;">
+                        <div class="p-2 fs-2 text w-50">Jeżeli uwielbiasz przebywać wśrod zieleni, jesteś kreatywny.<br><br>Lubisz rysować, malować. fotografować, tworzyć, posoadasz zdolności manualne i chciałbyś upiększać nasze otoczenie
+                        </div>
+                        <div class="p-2 fs-3 text">to jest to kierunek dla ciebie!!!</div>
+                    </div>
+                </div>
             </article>
         </main>
         <footer>
             <div class="position-relative" style="height: 50px; width: 100%;">
                 <p class="position-absolute top-50 start-50 translate-middle text-center" style="font-size: 75px;">Kontakt</p>
             </div>
-            <article class="w-100 bg-black position-relative" style="height: 40rem; top: 12rem;background-image: url('image/galeria/kraj1.jpg');background-size: cover;background-repeat: no-repeat;">
+            <article class="w-100 bg-black position-relative" style="height: 55rem; top: 12rem;background-image: url('image/artysta3.jpg');background-size: cover;background-repeat: no-repeat;">
                 <div class="rounded-circle bg-white position-absolute" style="width: 20rem;height: 20rem;left: calc(50% - 10rem);top: -10rem;">
                     <img src="image/header/logo.png" class="position-relative top-50 start-50 translate-middle" alt="logo" style="width: 18rem;height: 18rem;">       
                 </div>
-                <div class="d-d-flex flex-column mb-3 align-items-center w-100 h-100 text-center">
-                    <div class="p-2"><h1>Odwiedź nas na FB i Instagramie</h1></div>
-                    <div class="p-2"><h1>Rekrutacja trwa zapraszamy</h1></div>
-                    <div class="p-2"><img src="image/trawa.png" alt=""></div>
+                <div class="d-flex flex-column mb-3 align-items-center justify-content-center w-100 h-100 text-center">
+                    <div class="p-2"><h1 style="font-size:  clamp(.5rem , 2rem + 1svw, 3rem);">Odwiedź nas na FB i Instagramie</h1></div>
+                    <div class="p-2"><h1 style="font-size:  clamp(.5rem , 1.5rem + 1svw, 3rem);">Rekrutacja trwa zapraszamy</h1></div>
+                    <div class="p-2"><img src="image/trawa.png" alt="trawa" style="width: clamp(20svw,700px + 1svw,50svw);"></div>
                 </div>
             </article>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
