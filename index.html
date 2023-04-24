@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="shadow-lg">
+        <header class="shadow-lg pc-header">
             <div class="bg-warning bg-gradient border-bottom border-warning border-5 position-relative" style="width: 100%;height: 45rem; margin-bottom: 15rem;">
                 <div class="card position-absolute top-50 start-50 translate-middle" style="width: 70rem;height: 50rem;margin-top: 5%;">
                     <div class="card-body bg-success-subtle">
@@ -80,6 +80,70 @@
                     </div>
                 </div>
             </div>
+        </header>
+        <header class="shadow-lg mobile-header">
+            <div class="w-100 bg-success-subtle bg-gradient position-relative" style="height: 700px;margin-bottom: 7.5rem;overflow: hidden;">
+                <div class="rounded-circle bg-white position-relative" style="width: 5rem;height: 5rem; top: 80px;left: 1.5svw;">
+                    <img src="image/header/logo.png" class="position-relative top-50 start-50 translate-middle" alt="logo" style="width: 4rem;height: 4rem;">       
+                </div>
+                <img src="image/header/naglowek1.png" class="position-absolute" alt="logo" style="width: 300px;left: calc(100dvw - 300px);top: calc(700px - 262.8px);">
+                <div class="text-center position-relative" style="left: 25svw; width: 70dvw;height: 700px;top: calc(50% - 700px / 2);">
+                    <div class="row">
+                        <div class="col" style="height: 50%;">
+                            <p class="text-white text-start" style="font-size: 50px;font-weight: bold;">Technik <span class="text-warning">Architektury</span></p>
+                            <p class=" bg-success text-white font-weight-bold" style="font-size: 50px;font-weight: bold;">Krajobrazu</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="height: 30%;">
+                            <p class="fs-1 text-start text-black">Kierunek dla osób kreatywnych. Projektuj, twórz, komponuj. Rysuj, maluj i działaj</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="height: 20%;">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                    </svg>
+                                    Zapisz się
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Technik Architektury</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#O-kierunku">Przemioty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Perspektywy">Perspektywy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Prace-Uczniów">Prace uczniów</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Ciekawostki">Ciekawostki</a>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav>
         </header>
         <main>
             <div class="d-flex position-absolute mt-4" style="height: min(270dvh,500dvh); left: 8svw;">
@@ -402,7 +466,7 @@
                     <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Perspektywy</h1>
                 </div>
 
-                <div class="shadow-lg bg-warning bg-gradient border-bottom border-warning border-5" style="width: 100%;height: 55rem; margin-bottom: 15rem; margin-top: 5rem;">
+                <div class="shadow-lg bg-warning bg-gradient border-bottom border-warning border-5" style="width: 100%;height: 57rem; margin-bottom: 15rem; margin-top: 5rem;">
                     <div class="d-flex flex-column mb-3 text-center justify-content-evenly" style="height: 100%">
                         <div class="p-2 z-2">
                             <p class="text-white" style="font-size: clamp(20px,50px + 1svw,100px);font-weight: bold;">Technik <span class="text-success">Architektury</span> Krajowej</p>
@@ -433,12 +497,12 @@
                     <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Prace uczniów</h1>
                 </div>
                 <div class="container text-center mb-5 mt-5" style="width: 100dvw">
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-once="true" class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/przedmiot.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/zielen1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/kraj1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div data-aos="fade-up" data-aos-delay="900" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/kwaitaki6.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div data-aos="fade-up" data-aos-delay="1200" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/praca1.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
-                        <div data-aos="fade-up" data-aos-delay="1500" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/praca9.jpg" alt="" style="width: max(200px,400px); height: max(200px,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="0" data-aos-once="true" class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/przedmiot.jpg" alt="" style="width: clamp(200px, 100dvw ,400px); height: clamp(200px, 100dvw ,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="50" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/zielen1.jpg" alt="" style="width: clamp(200px, 100dvw ,400px); height: clamp(200px, 100dvw ,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/kraj1.jpg" alt="" style="width: clamp(200px, 100dvw ,400px); height: clamp(200px, 100dvw ,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="150" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/galeria/kwaitaki6.jpg" alt="" style="width: clamp(200px, 100dvw ,400px); height: clamp(200px, 100dvw ,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="200" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/praca1.jpg" alt="" style="width: clamp(200px, 100dvw ,400px); height: clamp(200px, 100dvw ,400px);"></div>
+                        <div data-aos="fade-up" data-aos-delay="250" data-aos-once="true"  class="d-inline-flex"><img class="mx-auto d-block rounded shadow" src="image/praca9.jpg" alt="" style="width: clamp(200px, 100dvw ,400px); height: clamp(200px, 100dvw ,400px);"></div>
                 </div>
             </article>
             <article id="Ciekawostki">
