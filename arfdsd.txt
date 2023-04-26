@@ -1,0 +1,72 @@
+ <!--
+        <header class="shadow-lg pc-header">
+            <div class="bg-warning bg-gradient border-bottom border-warning border-5 position-relative" style="width: 100%;height: 45rem; margin-bottom: 15rem;">
+                <div class="card position-absolute top-50 start-50 translate-middle" style="width: 70rem;height: 50rem;margin-top: 5%;">
+                    <div class="card-body bg-success-subtle">
+                        <div class="rounded-circle bg-white position-absolute" style="width: 8rem;height: 8rem;">
+                            <img src="image/header/logo.png" class="position-relative top-50 start-50 translate-middle" alt="logo" style="width: 7rem;height: 7rem;">       
+                        </div>
+                        <div class="position-absolute">
+                            <img src="image/header/naglowek1.png" class="position-relative translate-middle" alt="logo" style="width: 600px;top: 37rem;right: -72.5%;">        
+                        </div>
+                        <div class="position-relative z-3">
+                            <div class="position-absolute start-50 translate-middle-x">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#O-kierunku">
+                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Przemioty</button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#Perspektywy">
+                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Perspektywy</button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#Prace-Uczniów">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Prace uczniów</button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#Ciekawostki">
+                                        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Ciekawostki</button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center position-relative" style="width: 30rem;height: 70%;left: 10rem;top: 10rem;">
+                            <div class="row">
+                                <div class="col" style="height: 50%;">
+                                    <p class="text-white text-start" style="font-size: 50px;font-weight: bold;">Technik <span class="text-warning">Architektury</span></p>
+                                    <p class=" bg-success text-white font-weight-bold" style="font-size: 50px;font-weight: bold;">Krajobrazu</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col" style="height: 30%;">
+                                    <p class="fs-4 text-start text-black">Kierunek dla osób kreatywnych. Projektuj, twórz, komponuj. Rysuj, maluj i działaj</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col" style="height: 20%;">
+                                    <button type="button" class="btn btn-primary btn-lg">
+                                        <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                            </svg>
+                                            Zapisz się
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card position-absolute" style="width: 25rem;height: 70rem;right: 0;top: -20rem;">
+                            <div class="card-body bg-white position-relative bottom-0 end-0" >
+                                <img src="image/header/naglowek2.png" class="position-relative translate-middle" alt="logo" style="width: 600px;top: 60%;right: -50%;">   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header> -->

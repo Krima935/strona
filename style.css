@@ -17,13 +17,16 @@ a{
     .pc-header{
         visibility: hidden;
         overflow: hidden;
-    }
-    .pc-header{
         height: 0;
         width: 0;
     }
     .mobile-header{
         visibility: visible;
+    }
+    .hidde-mobile{
+        visibility: hidden;
+        height: 0;
+        width: 0;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -33,9 +36,10 @@ a{
     .mobile-header{
         visibility: hidden;
         overflow: hidden;
-    }
-    .mobile-header{
         height: 0;
         width: 0;
+    }
+    .hidde-mobile{
+        visibility: visible;
     }
 }
