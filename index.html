@@ -9,7 +9,7 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body style="overflow-x: hidden;">
         <header class="shadow-lg pc-header">
             <div class="w-100 bg-warning bg-gradient  d-flex justify-content-center align-content-center" style="height: 45rem;margin-bottom: 15rem;">
                 <div class="card mt-5" style="width: 70rem;height: 50rem;overflow: hidden;">
@@ -89,18 +89,18 @@
                 <img src="image/header/naglowek1.png" class="position-absolute" alt="logo" style="width: 300px;left: calc(100dvw - 300px);top: calc(700px - 262.8px);">
                 <div class="text-center position-relative" style="left: 25svw; width: 70dvw;height: 700px;top: calc(50% - 700px / 2);">
                     <div class="row">
-                        <div class="col" style="height: 50%;">
+                        <div class="col">
                             <p class="text-white text-start" style="font-size: 50px;font-weight: bold;">Technik <span class="text-warning">Architektury</span></p>
                             <p class=" bg-success text-white font-weight-bold" style="font-size: 50px;font-weight: bold;">Krajobrazu</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col" style="height: 30%;">
+                        <div class="col">
                             <p class="fs-1 text-start text-black">Kierunek dla osób kreatywnych. Projektuj, twórz, komponuj. Rysuj, maluj i działaj</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col" style="height: 20%;">
+                        <div class="col">
                             <button type="button" class="btn btn-primary btn-lg">
                                 <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
@@ -141,28 +141,27 @@
                             </li>
                         </ul>
                     </div>
-                  </div>
+                </div>
                 </div>
             </nav>
         </header>
         <main>
             <article id="O-kierunku">
                 <div class="position-relative mt-4 mb-4" style="height: 50px;">
-                    <img class="position-absolute top-50 start-0 translate-middle d-inline"  src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
-                    <h1 class="top-50 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">O kierunku</h1>
+                    <h1 class="top-50 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;"><strong>O kierunku</strong></h1>
                 </div>
                 <div class="mt-5 mb-5">
-                    <div class="container text-center" style="width: 100%;">
+                    <div class="container text-center w-100">
                         <div class="row justify-content-between align-content-between">
-                            <div class="col" > <!-- data-aos="fade-up" data-aos-delay="0" data-aos-anchor-placement="top-bottom" -->
-                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
-                                    <img src="image/banery/w6.jpg" class="card-img-top" alt="...">
+                            <div class="col" > <!-- data-aos="fade-up" data-aos-delay="0" data-aos-anchor-placement="top-bottom" data-aos-once="true"-->
+                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;height: 506.91px;">
+                                    <img src="image/galeria/praca5.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Przedmioty na kierunku</h5>
                                         <div class="list-group" id="list-tab" role="tablist">
                                             <div>
                                                 <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal1" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                    <div class="icon-link icon-link-hover w-100 h-100" data-bs-toggle="modal" data-bs-target="#ListModal1" style="padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
                                                         Architektoniczne<img src="image/icons/house.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
                                                 </a>
@@ -174,8 +173,8 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <div class="position-relative" style="width: 100%; height: 100%;">
-                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                            <div class="d-flex w-100 h-100" >
+                                                                <div class="container text-start align-self-center justify-self-center w-100 h-100" style="overflow-x: hidden;">
                                                                     <div class="row">
                                                                         <div class="col">
                                                                             <img class="shadow-lg" src="image/architekt1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
@@ -226,7 +225,7 @@
                                             </div>
                                             <div>
                                                 <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal2" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                    <div class="icon-link icon-link-hover w-100 h-100" data-bs-toggle="modal" data-bs-target="#ListModal2" style="padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
                                                         Techniczne<img src="image/icons/gear-fill.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
                                                 </a>
@@ -238,8 +237,8 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <div class="position-relative" style="width: 100%; height: 100%;">
-                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                            <div class="d-flex w-100 h-100">
+                                                                <div class="container text-start align-self-center justify-self-center w-100 h-100" style="overflow-x: hidden;">
                                                                     <div class="row">
                                                                         <div class="col">
                                                                             <img class="shadow-lg" src="image/zielen1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
@@ -289,7 +288,7 @@
                                             </div>
                                             <div>
                                                 <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal3" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                    <div class="icon-link icon-link-hover w-100 h-100" data-bs-toggle="modal" data-bs-target="#ListModal3" style="padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
                                                         Przrodnicze<img src="image/icons/flower3.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
                                                 </a>
@@ -301,8 +300,8 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <div class="position-relative" style="width: 100%; height: 100%;">
-                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                            <div class="d-flex w-100 h-100">
+                                                                <div class="container text-start align-self-center justify-self-center w-100 h-100" style="overflow-x: hidden;">
                                                                     <div class="row">
                                                                         <div class="col">
                                                                             <img class="shadow-lg" src="image/architekt1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
@@ -352,7 +351,7 @@
                                             </div>
                                             <div>
                                                 <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home" style="padding: 0 !important;">
-                                                    <div class="icon-link icon-link-hover" data-bs-toggle="modal" data-bs-target="#ListModal4" style="width: 100%;height: 100%;padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
+                                                    <div class="icon-link icon-link-hover w-100 h-100" data-bs-toggle="modal" data-bs-target="#ListModal4" style="padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x) !important;"> 
                                                         Artyczne<img src="image/icons/brush.svg" class="bi z-3" aria-hidden="true"></img>
                                                     </div>
                                                 </a>
@@ -364,8 +363,8 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <div class="position-relative" style="width: 100%; height: 100%;">
-                                                                <div class="container text-start position-absolute top-50 start-50 translate-middle">
+                                                            <div class="d-flex w-100 h-100">
+                                                                <div class="container text-start align-self-center justify-self-center w-100 h-100" style="overflow-x: hidden;">
                                                                     <div class="row">
                                                                         <div class="col">
                                                                             <img class="shadow-lg" src="image/architekt1.jpg" alt="" style="height: clamp(85svh , 70svh, 50svh);width: fit-content;">
@@ -416,11 +415,11 @@
                                 </div>
                             </div>
                             <div class="col" data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
+                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;height: 506.91px;">
                                     <div id="carouselExample" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="image/banery/w6.jpg" class="d-block w-100 card-img-top" style="margin-bottom: 52.27px;" alt="...">
+                                                <img src="image/galeria/praca1.jpg" class="d-block w-100 card-img-top" alt="...">
                                             </div>
                                             <div class="carousel-item">
                                                 <img src="image/galeria/kwaitaki7.jpg" class="d-block w-100 card-img-top" alt="...">
@@ -445,7 +444,7 @@
                                 </div>
                             </div>
                             <div class="col" data-aos="fade-up" data-aos-delay="600" data-aos-anchor-placement="top-bottom" data-aos-once="true">
-                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;">
+                                <div class="card shadow-lg mx-auto mt-3" style="width: 318px;height: 506.91px;">
                                     <img src="image/galeria/kwiatki5.jpg" class="card-img-top" alt="...">
                                     <div class="card-body z-2">
                                         <h5 class="card-title">Nauka i praktyka</h5>
@@ -459,19 +458,19 @@
             </article>
             <article id="Perspektywy" >
                 <div class="position-relative mt-4 mb-4" style="height: 50px;">
-                    <img class="position-absolute top-50 start-0 translate-middle d-inline"  src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
-                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Perspektywy</h1>
+                    
+                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;"><strong>Perspektywy</strong></h1>
                 </div>
                 <div class="shadow-lg bg-warning bg-gradient border-bottom border-warning border-5 mt-5 mb-5" style="width: 100%;height: 57rem">
                     <div class="d-flex flex-column mb-3 text-center justify-content-evenly" style="height: 100%">
-                        <div class="p-2 z-2">
+                        <div class="p-2">
                             <p class="text-white" style="font-size: clamp(20px,50px + 1svw,100px);font-weight: bold;">Technik <span class="text-success">Architektury</span> Krajowej</p>
                         </div>
                         <div class="p-2 z-2 position-relative" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                             <p class="m-auto mb-4 bg-success p-3 text-white shadow-lg rounded" style="width: clamp(25ch, 50%, 65ch);font-size: 1.5rem;text-align: justify;">Przygotuj się na kierunek, który pozwoli Ci rozwinąć umiejętności z zakresu projektowania, zakładania i pielęgnacji zieleni w sposób najbardziej kompleksowy! Poznasz tajniki teorii, ale też zdobędziesz doświadczenie praktyczne, co pozwoli Ci od razu w pełni wykorzystać zdobyte umiejętności w pracy zawodowej.</p>
                             <img src="image/artysta.png" class="position-absolute hidde-mobile z-n1" alt="..." style="height: auto;width: clamp(300px,100dvw, 700px); left: 0px; top: -60%;">
                         </div>
-                        <div class="p-2 z-2">
+                        <div class="p-2">
                                 <button type="button" class="fs-5 btn btn-success" style="margin-right: 20px;">
                                     <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
@@ -487,8 +486,7 @@
             </article>
             <article id="Prace-Uczniów">
                 <div class="position-relative mt-4 mb-4" style="height: 50px;">
-                    <img class="position-absolute top-50 start-0 translate-middle d-inline" src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
-                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Prace uczniów</h1>
+                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;"><strong>Prace uczniów</strong></h1>
                 </div>
                 <div class="container w-100 d-flex flex-wrap justify-content-center mt-5 mb-5">
                     <div class="row m-1" style="flex-direction: column;width: clamp(200px, 100dvw ,400px);">
@@ -510,35 +508,36 @@
             </article>
             <article id="Ciekawostki">
                 <div class="position-relative mt-4 mb-4" style="height: 50px;">
-                    <img class="position-absolute top-50 start-0 translate-middle d-inline" src="image/icons/dot.svg" style="width: 5rem; margin-left: 8svw;">
-                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;">Ciekawostki</h1>
+                    <h1 class="top-0 start-0 translate-middle text-start d-inline" style="margin-left: 10svw;"><strong>Ciekawostki</strong></h1>
                 </div>
-                <div class="w-100 mt-5 mb-5" style="height: 700px; background-size: cover;background-repeat: no-repeat; background-image: url(image/artysta3.jpg);text-align: justify;">
-                    <div class="w-100 d-flex flex-column mb-3 align-items-center justify-content-evenly position-relative text-light" style="height: 80%;backdrop-filter: blur(20px);top: 10%;">
-                        <div class="p-2 fs-2 text-uppercase" style="width: clamp(200px,100dvw, 900px);">
-                            JEŻELI UWIELBIASZ PRZEBYWAĆ WŚRÓD ZIELENI, JESTEŚ KREATYWNY,  
-                            LUBISZ RYSOWAĆ, MALOWAĆ, FOTOGRAFOWAĆ,
-                            TWORZYĆ, POSIADASZ ZDOLNOŚCI MANUALNE I CHCIAŁBYŚ UPIĘKSZAĆ  NASZE OTOCZENIE 
-                        </div>
-                        <div class="p-2 fs-3 text">
-                            TO JEST TO KIERUNEK DLA CIEBIE!!!
+                <div class="w-100 mt-5 mb-5 shadow" style="height: 800px; background-size: cover;background-repeat: no-repeat; background-image: url(image/artysta3.jpg);text-align: justify;">
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="w-100 h-100 d-flex justify-content-start align-items-center">
+                        <div class="container d-flex flex-column p-3 bg-warning rounded-5 text-white m-5 justify-content-around align-items-center" style="width: clamp(400px,100vw,700px);height: 70%;">
+                            <div class="row p-2 fs-4 w-75 text-uppercase">
+                                JEŻELI UWIELBIASZ PRZEBYWAĆ WŚRÓD ZIELENI, JESTEŚ KREATYWNY,  
+                                LUBISZ RYSOWAĆ, MALOWAĆ, FOTOGRAFOWAĆ,
+                                TWORZYĆ, POSIADASZ ZDOLNOŚCI MANUALNE I CHCIAŁBYŚ UPIĘKSZAĆ  NASZE OTOCZENIE 
+                            </div>
+                            <div class="row">
+                                <p class="p-2 fs-3">TO JEST TO KIERUNEK DLA <span class="text-success">CIEBIE</span>!!!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
         </main>
         <footer>
-            <div class="position-relative mt-4 mb-4" style="height: 50px; width: 100%;">
-                <p class="position-absolute top-50 start-50 translate-middle text-center" style="font-size: 75px;">Kontakt</p>
+            <div class="position-relative mt-4 mb-4 w-100" style="height: 50px">
+                <p class="position-absolute top-50 start-50 translate-middle text-center" style="font-size: 75px;"><strong>Kontakt</strong></p>
             </div>
-            <article class="w-100 bg-black position-relative mt-5" style="height: 50rem; top: 12rem;background-image: url('image/pexels-guna-sekar-1486612.jpg');background-size: cover;background-repeat: no-repeat;">
+            <article class="w-100 bg-black position-relative mt-5" style="height: 57.5rem; top: 12rem;background-image: url('image/pexels-guna-sekar-1486612.jpg');background-size: cover;background-repeat: no-repeat;">
                 <div class="rounded-circle bg-white position-absolute" style="width: 20rem;height: 20rem;left: calc(50% - 10rem);top: -10rem;">
                     <img src="image/header/logo.png" class="position-relative top-50 start-50 translate-middle" alt="logo" style="width: 18rem;height: 18rem;">       
                 </div>
                 <div class="d-flex flex-column mb-3 align-items-center justify-content-center w-100 h-100 text-center text-white">
                     <div class="p-2"><h1 style="font-size:  clamp(.5rem , 2rem + 1svw, 3rem);">Odwiedź nas na FB i Instagramie</h1></div>
                     <div class="p-2"><h1 style="font-size:  clamp(.5rem , 1.5rem + 1svw, 3rem);">Rekrutacja trwa zapraszamy</h1></div>
-                    <div class="p-2"><img src="image/trawa.png" alt="trawa" style="width: min(90dvw,700px);"></div>
+                    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d81930.50378989878!2d20.04761!3d50.080141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716456d45227691%3A0xb3a5bcd5fbdaf624!2sOsiedle%20Szkolne%2018%2C%2031-977%20Krak%C3%B3w%2C%20Polska!5e0!3m2!1spl!2sus!4v1682521144506!5m2!1spl!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </article>
         </footer>
